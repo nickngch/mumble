@@ -5,12 +5,12 @@
   "name": "mumble",
   "version": "1.0.0",
   "description": "tcp server for the odaslive client",
-  "main": "source/mumble.js",
+  "main": "src/mumble.js",
   "scripts": {
     "test": "mocha",
-    "dev": "nodemon source/mumble.js",
-    "start": "node source/mumble.js",
-    "lint": "./node_modules/.bin/eslint source/"
+    "dev": "nodemon src/mumble.js",
+    "start": "node src/mumble.js",
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "author": "Yuri Veremeyenko",
   "repository": {
