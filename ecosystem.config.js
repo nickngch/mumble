@@ -18,7 +18,7 @@ module.exports = {
     },
     {
       name: 'odaslive',
-      script: '~/odas/bin/odaslive -c ~/odas/config/odaslive/respeaker_4_mic_array.cfg',
+      script: '~/odas/bin/odaslive -c ~/odas/config/odaslive/respeaker_2_mic_pi_hat.cfg',
       // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
       args: '',
       instances: 1,
